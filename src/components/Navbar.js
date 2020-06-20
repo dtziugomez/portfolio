@@ -13,10 +13,15 @@ export default function Navbar() {
           <NavWrapper show={sidebarOpen}>
             <div className="header-container">
               <nav>
-                <div className="logoBtn">
-                  <Link to="/" onClick={handleClose}>
-                    <img src="" alt="imagen" />
-                  </Link>
+                <div className="logoBtn" target="_blank">
+                  <a href="http://www.linkedin.com/in/deyvi-tziu">
+                    {/* <Link
+                    to="http://www.linkedin.com/in/deyvi-tziu"
+                    onClick={handleClose}
+                  > */}
+                    <img src="/photos/work.svg" alt="imagen" />
+                    {/* </Link> */}
+                  </a>
                   <div className="btn" onClick={handleSidebar}>
                     <div className="bar"></div>
                     <div className="bar"></div>

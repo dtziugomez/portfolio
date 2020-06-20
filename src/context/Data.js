@@ -1,16 +1,16 @@
 // for navbar
 
 export const Links = [
-  {
-    id: 1,
-    link: "Home",
-    path: "/",
-    scrolling: "Home"
-  },
+  // {
+  //   id: 1,
+  //   link: "Home",
+  //   path: "/",
+  //   scrolling: "Home"
+  // },
 
   {
     id: 4,
-    link: "Projects",
+    link: "Deyvi Fernando Tziu",
     path: "/projects",
     scrolling: "Projects"
   }
@@ -20,24 +20,23 @@ export const Links = [
 export const projects = [
   {
     id: 1,
-    extlink: "https://codito-portfolio.netlify.com/",
+    extlink: "https://cashmoney.offixsiap.mx",
     img: "/photos/cashmoney.png",
-    title: "React.js project",
-    btnTitle: "Portfolio"
+    title: "CashMoney",
+    btnTitle: "Visitar"
   },
   {
     id: 2,
-    extlink: "https://nnn.netlify.com",
+    extlink: "http://ventasdi.no-ip.net/erpdin",
     img: "/photos/erpdin.PNG",
-    title: "React.js project",
-    btnTitle: "Lti"
+    title: "Erpdin",
+    btnTitle: "Visitar"
   },
   {
     id: 3,
-    extlink: "https://okelectrical.netlify.com/",
+    extlink: "/",
     img: "/photos/preguntas-app.PNG",
-    title: "Html, css, javascript project",
-    btnTitle: "okElectric"
+    title: "EncuestaDin",
+    btnTitle: ""
   }
-  
 ];
