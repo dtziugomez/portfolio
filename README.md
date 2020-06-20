@@ -4,4 +4,4 @@ and in package.json add:
 "deploy": "gh-pages -d build",
 into scripts
 
-npm run deploy to generate in github
+npm run deploy to generate in github.
