@@ -15,11 +15,14 @@ function App() {
         return (
           <div className="App">
             <Navbar />
-            {
-              <Route exact path="/" component={Header} />
-              /*<Route exact path="/Skills" component={Skills} />
-            <Route exact path="/Projects" component={Projects} /> */
-            }
+
+            {/* <Element name="Home">
+              < Route exact path="/" component={Header} />
+            </Element> */}
+
+            <Element name="Projects">
+              <Route exact path="/" component={Projects} />
+            </Element>
           </div>
         );
       }}
