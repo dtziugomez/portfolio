@@ -1,7 +1,5 @@
-to host in git hub pages:npm install gh-pages
-and in package.json add:
-"predeploy": "npm run build",
-"deploy": "gh-pages -d build",
-into scripts
+git reset --hard <commit_ID>
+It resets the status of your repo (working HEAD) to an older revision. It’s a true rollback of the state of your repo.
 
-npm run deploy to generate in github.
+when use the last command use:
+git push origin +branchName --force to update the repo in gitgub.
