@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
-import { scroller } from "react-scroll";
 import { ProductConsumer } from "../context/Context";
 
 export default function Navbar() {

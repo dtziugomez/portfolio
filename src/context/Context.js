@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Links } from "./Data";
-import { devSkills } from "./Data";
 import { projects } from "./Data";
 
 const ProductContext = React.createContext();
