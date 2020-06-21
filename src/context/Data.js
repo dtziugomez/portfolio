@@ -1,15 +1,6 @@
-// for navbar
-
 export const Links = [
-  // {
-  //   id: 1,
-  //   link: "Home",
-  //   path: "/",
-  //   scrolling: "Home"
-  // },
-
   {
-    id: 4,
+    id: 1,
     link: "Deyvi Fernando Tziu",
     path: "/projects",
     scrolling: "Projects"

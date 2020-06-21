@@ -12,14 +12,16 @@ export default function Navbar() {
           <NavWrapper show={sidebarOpen}>
             <div className="header-container">
               <nav>
-                <div className="logoBtn" target="_blank">
-                  <a href="http://www.linkedin.com/in/deyvi-tziu">
-                    {/* <Link
-                    to="http://www.linkedin.com/in/deyvi-tziu"
-                    onClick={handleClose}
-                  > */}
-                    <img src="/photos/work.svg" alt="imagen" />
-                    {/* </Link> */}
+                <div className="logoBtn">
+                  <a
+                    href="http://www.linkedin.com/in/deyvi-tziu"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="/photos/linkedin.svg"
+                      alt="Linkedin"
+                    />
                   </a>
                   <div className="btn" onClick={handleSidebar}>
                     <div className="bar"></div>
@@ -57,7 +59,7 @@ const NavWrapper = styled.div`
     display: block;
     padding: 0 0;
     width: 100px;
-    height: 60px;
+    height: 40px;
     padding: 2px;
   }
 

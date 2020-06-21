@@ -14,11 +14,6 @@ function App() {
         return (
           <div className="App">
             <Navbar />
-
-            {/* <Element name="Home">
-              < Route exact path="/" component={Header} />
-            </Element> */}
-
             <Element name="Projects">
               <Route exact path="/" component={Projects} />
             </Element>
