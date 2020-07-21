@@ -25,7 +25,7 @@ export const projects = [
   },
   {
     id: 3,
-    extlink: "/",
+    extlink: "#",
     img: "/photos/preguntas-app.PNG",
     title: "EncuestaDin",
     btnTitle: ""

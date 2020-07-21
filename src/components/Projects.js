@@ -26,6 +26,8 @@ export default function Projects() {
                       <p>{item.title}</p>
 
                       <div className="items">
+                        {
+                         item.id!==3? 
                         <button className="projectBtn">
                           <a
                             href={item.extlink}
@@ -35,6 +37,8 @@ export default function Projects() {
                             {item.btnTitle}
                           </a>
                         </button>
+                        :null
+                        }
                       </div>
                     </div>
                   );
