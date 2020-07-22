@@ -102,6 +102,10 @@ a {
 .single-project:hover .items {
   bottom: 0;
 }
+p{
+  text-align: center;
+  font-size:20px;
+}
 
 @media screen and (min-width: 664px) {
   .projects-center {
