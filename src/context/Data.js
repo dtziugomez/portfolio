@@ -38,19 +38,15 @@ export const projects = [
   },
   {
     id: 3,
-    extlink: "http://encuestadin.com",
+    extlink: "",
     img: "/photos/encuestadin/preguntas-app.PNG",
     title: "EncuestaDin",
     btnTitle: "Visitar",
     active: false,
     details: {
       title: "Encuestadin",
-      description:
-        "An app to realize surveys developed with android studio.",
-      images: [
-        "/photos/encuestadin/4.jpg"
-
-      ]
+      description: "An app to realize surveys developed with android studio.",
+      images: ["/photos/encuestadin/4.jpg"]
     }
   },
   {
