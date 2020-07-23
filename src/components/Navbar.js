@@ -18,10 +18,7 @@ export default function Navbar() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <img
-                      src="/photos/linkedin.svg"
-                      alt="Linkedin"
-                    />
+                    <img src="/photos/linkedin.svg" alt="Linkedin" />
                   </a>
                   <div className="btn" onClick={handleSidebar}>
                     <div className="bar"></div>
@@ -89,15 +86,6 @@ const NavWrapper = styled.div`
   }
 
   .links {
-    transition: all 0.5s ease-in-out;
-    position: fixed;
-    top: 76px;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: rgba(0, 0, 0, 0.9);
-    width: 400px;
-    trasnform: ${props => (props.show ? "translate(0%)" : "translate(-100%)")};
   }
 
   .links li a {

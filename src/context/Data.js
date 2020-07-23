@@ -1,7 +1,7 @@
 export const Links = [
   {
     id: 1,
-    link: "Deyvi Fernando Tziu",
+    link: "Deyvi Tziu Gomez",
     path: "/projects",
     scrolling: "Projects"
   }
