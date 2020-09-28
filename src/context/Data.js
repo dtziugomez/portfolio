@@ -70,7 +70,7 @@ export const projects = [
     btnTitle: "Visitar",
     active: true,
     details: {
-      title: "",
+      title: "Registro Civil",
       description: "",
       images: ["/photos/jctpmex.PNG"]
     }
