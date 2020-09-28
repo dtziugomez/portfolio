@@ -72,7 +72,7 @@ export const projects = [
     details: {
       title: "",
       description: "",
-      images: []
+      images: ["/photos/jctpmex.PNG"]
     }
   }
 ];
