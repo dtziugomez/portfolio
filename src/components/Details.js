@@ -14,14 +14,15 @@ function Details(props) {
           <p>{project[0].details.description}</p>
         </article>
         <div className="projects-center">
-          <div id="images" className="single-project">
-            {project[0].details.images.map(image => (
+          {project[0].details.images.map(image => (
+            <div id="images" className="single-project">
               <img key={props.match.params.id++} src={image} alt="pic" />
-            ))}
-          </div>
+            </div>
+          ))}
         </div>
       </div>
     </div>
   );
 }
+
 export default Details;

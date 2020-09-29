@@ -32,21 +32,24 @@ export const projects = [
     details: {
       title: "Erpdin",
       description:
-        "ERP with modules: Resources humans, Reports, and crontrol of documents.",
+        "ERP with modules: Resources humans, Reports, and control of documents.",
       images: ["/photos/erpdin.PNG"]
     }
   },
   {
     id: 3,
     extlink: "/details/3",
-    img: "/photos/encuestadin/preguntas-app.PNG",
+    img: "/photos/encuestadin/bienvenida-app.PNG",
     title: "EncuestaDin",
     btnTitle: "Visitar",
     active: false,
     details: {
       title: "Encuestadin",
       description: "An app to realize surveys developed with android studio.",
-      images: ["/photos/encuestadin/4.jpg"]
+      images: [
+        "/photos/encuestadin/preguntas-app.PNG",
+        "/photos/encuestadin/4.jpg"
+      ]
     }
   },
   {
@@ -65,14 +68,18 @@ export const projects = [
   {
     id: 5,
     extlink: "/details/5",
-    img: "/photos/jctpmex.PNG",
+    img: "/photos/demo/demo.PNG",
     title: "REGISTRO CIVIL",
     btnTitle: "Visitar",
     active: true,
     details: {
       title: "Registro Civil",
       description: "",
-      images: ["/photos/jctpmex.PNG"]
+      images: [
+        "/photos/demo/demo.PNG",
+        "/photos/demo/demo2.PNG",
+        "/photos/demo/demo3.PNG"
+      ]
     }
   }
 ];
