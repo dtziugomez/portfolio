@@ -15,7 +15,7 @@ function Details(props) {
         </article>
         <div className="projects-center">
           {project[0].details.images.map(image => (
-            <div id="images" className="single-project">
+            <div id="images" className="single-project-detail">
               <img key={props.match.params.id++} src={image} alt="pic" />
             </div>
           ))}

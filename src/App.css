@@ -36,7 +36,24 @@ a {
   opacity: 0.8;
   transition: all 0.5s ease-in-out;
 }
-
+.single-project-detail{
+  width: 48%;
+  position: relative;
+  margin: 2px;
+  margin-top: 20px;
+  background: rgba(0, 0, 0, 0.9);
+  overflow: hidden;
+  justify-content: center;
+}
+.single-project-detail img {
+  width: 100%;
+  display: block;
+  opacity: 0.7;
+  transition: all 0.5s ease-in-out;
+}
+.single-project-detail:hover img {
+  opacity: 0.8;
+}
 .single-project:hover img {
   opacity: 0.5;
 }
