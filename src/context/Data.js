@@ -25,7 +25,7 @@ export const projects = [
   {
     id: 2,
     extlink: "/details/2",
-    img: "/photos/erpdin.PNG",
+    img: "/photos//erpdin/erpdin.PNG",
     title: "Erpdin",
     btnTitle: "Visitar",
     active: false,
@@ -33,7 +33,7 @@ export const projects = [
       title: "Erpdin",
       description:
         "ERP with modules: Resources humans, Reports, and control of documents.",
-      images: ["/photos/erpdin.PNG"]
+      images: ["/photos/erpdin/erpdin.PNG", "/photos/erpdin/vddin.PNG"]
     }
   },
   {
