@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { Link } from "react-router-dom";
+
 import { ProductConsumer } from "../context/Context";
 
 export default function Navbar() {
@@ -20,6 +20,13 @@ export default function Navbar() {
                   >
                     <img src="/photos/linkedin.svg" alt="Linkedin" />
                   </a>
+                  <a
+                    href="http://github.com/dtziugomez"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img src="/photos/github.svg" alt="github" />
+                  </a>
                   <div className="btn" onClick={handleSidebar}>
                     <div className="bar"></div>
                     <div className="bar"></div>
@@ -30,7 +37,7 @@ export default function Navbar() {
                   {value.links.map(links => {
                     return (
                       <li key={links.id}>
-                        <Link to="/">{links.link}</Link>
+                        <a href={links.path}>{links.link}</a>
                       </li>
                     );
                   })}

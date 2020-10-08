@@ -1,11 +1,11 @@
 export const Links = [
-  {
-    id: 1,
-    link: "Deyvi Tziu Gomez",
-    path: "/projects",
-    scrolling: "Projects"
-  }
-];
+         {
+           id: 1,
+           link: "Deyvi Tziu Gomez",
+           path: "/docs/DeyvisResume.pdf",
+           scrolling: "cv"
+         }
+       ];
 
 // projects
 export const projects = [
