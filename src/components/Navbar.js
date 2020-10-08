@@ -37,7 +37,13 @@ export default function Navbar() {
                   {value.links.map(links => {
                     return (
                       <li key={links.id}>
-                        <a href={links.path}>{links.link}</a>
+                        <a
+                          href={links.path}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          {links.link}
+                        </a>
                       </li>
                     );
                   })}
