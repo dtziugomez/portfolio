@@ -1,11 +1,11 @@
 export const Links = [
-         {
-           id: 1,
-           link: "Deyvi Tziu Gomez",
-           path: "/docs/DeyvisResume.pdf",
-           scrolling: "cv"
-         }
-       ];
+  {
+    id: 1,
+    link: "Deyvi Tziu Gomez",
+    path: "/docs/DeyvisResume.pdf",
+    scrolling: "cv"
+  }
+];
 
 // projects
 export const projects = [
@@ -48,7 +48,8 @@ export const projects = [
       description: "An app to realize surveys.",
       images: [
         "/photos/encuestadin/preguntas-app.PNG",
-        "/photos/encuestadin/4.jpg"
+        "/photos/encuestadin/4.jpg",
+        "/photos/encuestadin/answ.jpg"
       ]
     }
   },
