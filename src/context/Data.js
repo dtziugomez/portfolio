@@ -18,7 +18,8 @@ export const projects = [
     active: true,
     details: {
       title: "",
-      description: "A website to register loans and customer payments.",
+      description:
+        "A website to register loans and customer payments.(c#,mvc.net)",
       images: []
     }
   },
@@ -32,7 +33,7 @@ export const projects = [
     details: {
       title: "Erpdin",
       description:
-        "ERP with modules: Resources humans, Reports, and control of documents.",
+        "ERP with modules: Resources humans, Reports, and control of documents.(vb.net,devexpress)",
       images: ["/photos/erpdin/erpdin.PNG", "/photos/erpdin/vddin.PNG"]
     }
   },
@@ -45,7 +46,7 @@ export const projects = [
     active: false,
     details: {
       title: "Encuestadin",
-      description: "An app to realize surveys.",
+      description: "An app to realize surveys.(Android studio)",
       images: [
         "/photos/encuestadin/preguntas-app.PNG",
         "/photos/encuestadin/4.jpg",
@@ -63,7 +64,7 @@ export const projects = [
     details: {
       title: "",
       description:
-        "Statistics about covid-19 in municipalities of yucatan state of mexico.",
+        "Statistics about covid-19 in municipalities of yucatan state of mexico.(reactjs)",
       images: []
     }
   },
@@ -76,7 +77,7 @@ export const projects = [
     active: true,
     details: {
       title: "Civil registration",
-      description: "Software desktop to control of users",
+      description: "Software desktop to control of users(c#,winforms)",
       images: [
         "/photos/demo/demo.PNG",
         "/photos/demo/demo2.PNG",
@@ -93,7 +94,7 @@ export const projects = [
     active: true,
     details: {
       title: "License control",
-      description: "A website to control software versions.",
+      description: "A website to control software versions.(vb.net,devexpress)",
       images: [
         "/photos/gyca/gyca1.PNG",
         "/photos/gyca/gyca2.PNG",
