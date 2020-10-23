@@ -46,7 +46,7 @@ export const projects = [
     active: false,
     details: {
       title: "Encuestadin",
-      description: "An app to realize surveys.(Android studio)",
+      description: "An app to realize surveys.(Android studio,java)",
       images: [
         "/photos/encuestadin/preguntas-app.PNG",
         "/photos/encuestadin/4.jpg",
