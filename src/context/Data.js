@@ -100,5 +100,27 @@ export const projects = [
         "/photos/gyca/gyca3.PNG"
       ]
     }
+  },
+  {
+    id: 7,
+    extlink: "/details/7",
+    img: "/photos/sipp/2.PNG",
+    title: "Dashboards",
+    btnTitle: "Visitar",
+    active: true,
+    details: {
+      title: "Dashboards",
+      description: "Frontend with vue to show dashboards.",
+      images: [
+        "/photos/sipp/1.PNG",
+        "/photos/sipp/2.PNG",
+        "/photos/sipp/3.PNG",
+        "/photos/sipp/4.PNG",
+        "/photos/sipp/5.PNG",
+        "/photos/sipp/6.PNG"
+
+
+      ]
+    }
   }
 ];
