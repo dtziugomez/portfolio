@@ -110,16 +110,9 @@ export const projects = [
     active: true,
     details: {
       title: "Dashboards",
-      description: "Frontend with vue to show dashboards.",
+      description: "Frontend with vuetify to create dashboards beauty.",
       images: [
-        "/photos/sipp/1.PNG",
-        "/photos/sipp/2.PNG",
-        "/photos/sipp/3.PNG",
-        "/photos/sipp/4.PNG",
-        "/photos/sipp/5.PNG",
-        "/photos/sipp/6.PNG"
-
-
+        "/photos/sipp/2.PNG"
       ]
     }
   }
