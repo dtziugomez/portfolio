@@ -23,7 +23,8 @@ a {
   margin-top: 20px;
   background: rgba(0, 0, 0, 0.9);
   overflow: hidden;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  border-radius: 5px;
 }
 
 .single-project a {
@@ -37,7 +38,7 @@ a {
   opacity: 0.8;
   transition: all 0.5s ease-in-out;
 }
-.single-project-detail{
+.single-project-detail {
   width: 48%;
   position: relative;
   margin: 2px;
@@ -45,7 +46,8 @@ a {
   background: rgba(0, 0, 0, 0.9);
   overflow: hidden;
   justify-content: center;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  border-radius: 5px;
 }
 .single-project-detail img {
   width: 100%;
@@ -88,6 +90,7 @@ a {
   border: 1px solid #fff;
   transition: all 0.5s ease-in-out;
   background: transparent;
+  border-radius: 5px;
 }
 
 .items .projectBtn a {
@@ -121,9 +124,9 @@ a {
 .single-project:hover .items {
   bottom: 0;
 }
-p{
+p {
   text-align: center;
-  font-size:20px;
+  font-size: 20px;
 }
 
 @media screen and (min-width: 664px) {

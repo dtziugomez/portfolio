@@ -41,6 +41,7 @@ export default function Navbar() {
                           href={links.path}
                           target="_blank"
                           rel="noopener noreferrer"
+                          className="btn"
                         >
                           {links.link}
                         </a>
@@ -87,7 +88,9 @@ const NavWrapper = styled.div`
   .btn {
     border: 1px solid #f6f6f6;
     display: inline-block;
-    corsor: pointer;
+    cursor: pointer;
+    background: #0077b5;
+    border-radius: 5px;
   }
 
   .logoBtn {
@@ -113,10 +116,11 @@ const NavWrapper = styled.div`
   }
 
   .links li a:hover {
-    color: #41e1b3;
+    color: white;
     padding: 10px 25px;
-    border-bottom: 1px solid #049fe1;
-    background: rgba(0, 0, 0, 1);
+    border-bottom: 1px solid #ffffff;
+    background: #0077b5;
+    border-radius: 5px;
   }
 
   /*responsive*/

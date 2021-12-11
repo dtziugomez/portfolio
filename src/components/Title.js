@@ -6,7 +6,7 @@ export default function Title(props) {
       <TitleWrapper className="title" style={{color:props.color}}>
         <h2>{props.title}</h2>
         <div className="first">
-            <div className="underline"></div>
+            <div className=""></div>
         </div>
       </TitleWrapper>
   )
@@ -14,16 +14,17 @@ export default function Title(props) {
 
 const TitleWrapper = styled.div`
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 
   h2 {
     font-weight: 400;
-    text-trasform: capitalize;
+    text-trasform: uppercase;
     letter-spacing: 0.3rem;
+    color: black;
   }
 
   .underline {
-    width: 40px;
+    width: 120px;
     border: 1px solid;
     margin: 0 auto;
   }
