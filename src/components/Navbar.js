@@ -92,7 +92,7 @@ const NavWrapper = styled.div`
     background: #0077b5;
     border-radius: 5px;
   }
-
+  
   .logoBtn {
     display: flex;
     align-items: center;
@@ -116,10 +116,10 @@ const NavWrapper = styled.div`
   }
 
   .links li a:hover {
-    color: white;
+    color: #00ff00;
     padding: 10px 25px;
     border-bottom: 1px solid #ffffff;
-    background: #0077b5;
+    background: #0000ff;
     border-radius: 5px;
   }
 
