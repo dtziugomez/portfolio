@@ -27,6 +27,7 @@ export default function Navbar() {
                   >
                     <img src="/photos/github.svg" alt="github" />
                   </a>
+                  DEYVI FERNANDO TZIU GOMEZ
                   <div className="btn" onClick={handleSidebar}>
                     <div className="bar"></div>
                     <div className="bar"></div>
