@@ -1,7 +1,7 @@
 export const Links = [
   {
     id: 1,
-    link: "Curriculum Vitae",
+    link: "Get My CV",
     path: "/docs/DeyvisResume.pdf",
     scrolling: "cv"
   }
