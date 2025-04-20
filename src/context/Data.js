@@ -12,14 +12,14 @@ export const projects = [
   {
     id: 1,
     extlink: "/details/1",
-    img: "/photos/cashmoney.png",
+    img: "/photos/cashmoney.PNG",
     title: "CashMoney",
     btnTitle: "Visit",
-    active: true,
+    active: false,
     details: {
       title: "",
       description: "A website to register loans and customer payments.",
-      images: []
+      images: ["/photos/cashmoney.PNG"]
     }
   },
   {
@@ -64,7 +64,7 @@ export const projects = [
       title: "",
       description:
         "Statistics about covid-19 in municipalities of yucatan state of mexico.",
-      images: []
+      images: ["/photos/covid-yucatan-mexico.PNG"]
     }
   },
   {
