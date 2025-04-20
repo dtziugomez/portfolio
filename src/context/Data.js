@@ -11,7 +11,7 @@ export const Links = [
 export const projects = [
   {
     id: 1,
-    extlink: "https://cashmoney.offixsiap.mx",
+    extlink: "/details/1",
     img: "/photos/cashmoney.png",
     title: "CashMoney",
     btnTitle: "Visit",
@@ -55,7 +55,7 @@ export const projects = [
   },
   {
     id: 4,
-    extlink: "https://heuristic-blackwell-53a086.netlify.app/",
+    extlink: "/details/4",
     img: "/photos/covid-yucatan-mexico.PNG",
     title: "COVID 19 IN YUCATAN-MEXICO",
     btnTitle: "Visit",
