@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
-import { Element } from "react-scroll";
+//import { Element } from "react-scroll";
 import Navbar from "./components/Navbar";
 
-import Projects from "./components/Projects";
-import Details from "./components/Details";
-import { Route, Switch, BrowserRouter, Redirect } from "react-router-dom";
+//import Projects from "./components/Projects";
+//import Details from "./components/Details";
+//import { Route, Switch, BrowserRouter, Redirect } from "react-router-dom";
 import { ProductConsumer } from "./context/Context";
 
 function App() {
